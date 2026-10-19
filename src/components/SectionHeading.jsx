@@ -47,11 +47,11 @@ export default function SectionHeading({
       {title && (
         <h2
           id={id}
-          className={`mb-3.5 font-['Montserrat',sans-serif] font-extrabold tracking-[-0.02em] ${titleSizeClass} ${isDark ? 'text-white' : 'text-[#0F172A]'
+          className={`mb-3.5 sm:!leading-[1.2] font-['Montserrat',sans-serif] font-extrabold tracking-[-0.02em] ${titleSizeClass} ${isDark ? 'text-white' : 'text-[#0F172A]'
             }`}
         >
           {title}{' '}
-          {highlight && <span className={highlightColor}>{highlight}</span>}
+          <span className='block sm:inline'>{highlight && <span className={highlightColor}>{highlight}</span>}</span>
         </h2>
       )}
 
