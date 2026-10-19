@@ -15,7 +15,7 @@ const perks = [
   "Ưu đãi học phí hấp dẫn khi đăng ký combo Đào Tạo & Hồ Sơ",
 ];
 
-const inputClass = "w-full min-w-0 rounded-xl border border-[#E2E8F0] bg-[#FAFAFA] px-[14px] py-3 text-base text-[#0F172A] outline-none transition-all duration-200 placeholder:text-slate-400 focus:border-[#FE0000] focus:bg-white focus:ring-[3px] focus:ring-red-500/15 sm:text-[15px]";
+const inputClass = "w-full min-w-0 rounded-xl border border-[#E2E8F0] bg-[#FAFAFA] px-[14px] py-3 text-base text-[#0F172A] outline-none transition-all duration-200 placeholder:text-slate-400 focus:border-primary focus:bg-white focus:ring-[3px] focus:ring-primary/15 sm:text-[15px]";
 const labelClass = "mb-1.5 block text-[13px] font-bold text-[#0F172A]";
 
 /**
