@@ -26,7 +26,7 @@ export default function SectionHeading({
   const titleSizeClass =
     titleSize === 'xl'
       ? "text-2xl sm:text-3xl lg:text-[38px] leading-[1.25]"
-      : "text-[27px] sm:text-[30px] md:text-[30px] leading-[1.25]";
+      : "text-[24px] sm:text-[30px] md:text-[30px] leading-[1.25]";
 
   return (
     <header className={`mx-auto mb-5 max-w-[820px] md:mb-5 ${alignClass} ${className}`}>
