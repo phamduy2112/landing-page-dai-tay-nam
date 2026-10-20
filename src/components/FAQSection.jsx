@@ -16,7 +16,9 @@ const faqs = [
   },
   {
     question: "4. Tỷ lệ đỗ visa tại trung tâm là bao nhiêu và có cam kết hoàn phí nếu trượt không?",
-    answer: <>Tỷ lệ đỗ visa của học viên tại Đại Tây Nam luôn duy trì ở mức trên <strong>98%</strong> nhờ quy trình thẩm định hồ sơ kỹ càng ngay từ đầu. Trong trường hợp hiếm hoi bị từ chối visa vì lý do khách quan không xuất phát từ việc khai man giấy tờ của học sinh, trung tâm <strong>cam kết hoàn lại 100% phí dịch vụ</strong> theo đúng điều khoản hợp đồng.</>,
+    answer: <>
+      Đại Tây Nam đạt tỷ lệ đỗ visa trên <strong>98%</strong> nhờ khâu thẩm định kỹ lưỡng. Chúng tôi cam kết hoàn 100% phí dịch vụ nếu bị từ chối visa vì lý do khách quan (trừ trường hợp gian dối hồ sơ)
+    </>,
   },
   {
     question: "5. Điều kiện học bạ cấp 3 (GPA) tối thiểu để apply du học là gì?",
