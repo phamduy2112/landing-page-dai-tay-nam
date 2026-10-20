@@ -12,7 +12,7 @@ export default function VideoSection({ youtubeId, videoSrc }) {
       <div className="mx-auto w-full max-w-[1200px] px-4 sm:px-5">
         <SectionHeading
           badge="Hành Trình Thực Tế"
-          title="Học Viên Chia Sẻ Về Hành Trình Tại"
+          title="Cảm Nhận Học Viên Tại"
           highlight="Đại Tây Nam"
           description="Lắng nghe những chia sẻ chân thực từ học viên đã thi đỗ chứng chỉ và xuất cảnh thành công sang Hàn Quốc & Đài Loan."
         />
