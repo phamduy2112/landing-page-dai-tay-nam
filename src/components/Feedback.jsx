@@ -13,7 +13,7 @@ const testimonials = [
     badge: "VISA ĐỖ KỲ MỚI 2026",
     badgeColor: "bg-primary",
     initials: "NH",
-    name: "Nguyễn Hoàng Nam (19 tuổi)",
+    name: "Nguyễn Huỳnh Gia Bảo",
     detail: "Học bổng 50% Đại học Sejong (Seoul, Hàn Quốc)",
     quote:
       '"Từ một người chưa biết gì về tiếng Hàn, sau 4 tháng học cấp tốc tại trung tâm em đã thi đỗ TOPIK 3 và xuất sắc vượt qua vòng phỏng vấn của trường. Cảm ơn các thầy cô Đại Tây Nam đã hỗ trợ hồ sơ em rất chu đáo!"',
@@ -25,7 +25,7 @@ const testimonials = [
     badgeColor: "bg-primary",
     initials: "TL",
     initialsColor: "text-primary-dark",
-    name: "Trần Thùy Linh (20 tuổi)",
+    name: "Trương Mỹ Phụng",
     detail: "Hệ Vừa học Vừa làm - ĐH Minh Tân (Đài Loan)",
     quote:
       '"Gia đình em ban đầu rất lo lắng về chi phí, nhưng nhờ trung tâm tư vấn hệ VHVL nên em được miễn 100% học phí kỳ 1 và được trường bố trí việc làm ngay khi sang. Thu nhập thực tập giúp em tự trang trải hoàn toàn."',
@@ -36,7 +36,7 @@ const testimonials = [
     badge: "VISA THẲNG KHÔNG PHỎNG VẤN",
     badgeColor: "bg-primary",
     initials: "ĐM",
-    name: "Đỗ Minh Quân (18 tuổi)",
+    name: "Lê Thanh Tùng",
     detail: "Hệ tiếng D4-1 - Đại học Kookmin (Hàn Quốc)",
     quote:
       '"Hồ sơ của em có khoảng trống 1 năm sau tốt nghiệp nên rất khó xin trường. Nhưng nhờ các anh chị Đại Tây Nam thụ lý hồ sơ giải trình mạch lạc, em đã nhận được mã code visa thẳng chỉ sau 3 tuần!"',
