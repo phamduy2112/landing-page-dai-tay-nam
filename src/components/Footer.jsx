@@ -22,11 +22,11 @@ const studyAbroadLinks = [
 function FooterLinkGroup({ title, links, href }) {
   return (
     <div className="min-w-0">
-      <h4 className="mb-5 text-base font-extrabold tracking-[-0.01em] text-white">{title}</h4>
+      <h4 className="mb-5 text-base font-extrabold tracking-[-0.01em] text-black">{title}</h4>
       <ul className="space-y-[11px]">
         {links.map((label) => (
           <li key={label}>
-            <a href={href} className="inline-block text-[#94A3B8] transition-all duration-200 hover:translate-x-1 hover:text-white">
+            <a href={href} className="inline-block text-black transition-all duration-200 hover:translate-x-1 hover:text-black">
               {label}
             </a>
           </li>
@@ -52,12 +52,12 @@ function ContactIcon({ type }) {
  */
 export default function Footer({ logoSrc = logo, className = "" }) {
   return (
-    <footer className={`w-full border-t border-white/[0.08] bg-[#090E17] pb-[30px] pt-[70px] font-['Plus_Jakarta_Sans',sans-serif] text-sm leading-[1.6] text-[#94A3B8] ${className}`}>
+    <footer className={`w-full border-t border-white/[0.08] bg-white pb-[30px] pt-[70px] font-['Plus_Jakarta_Sans',sans-serif] text-sm leading-[1.6] text-black ${className}`}>
       <div className="mx-auto w-full max-w-[1200px] px-4 sm:px-5">
         <div className="mb-[50px] grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div className="min-w-0">
             <div className="mb-4 flex items-center gap-3">
-              <img src={logoSrc} alt="Du Học & Đào Tạo Đại Tây Nam" className="h-12 w-auto max-w-[400px] shrink-0 object-contain" />
+              <img src={logoSrc} alt="Du Học & Đào Tạo Đại Tây Nam" className="h-15 w-auto max-w-[500px] shrink-0 object-contain" />
 
             </div>
             <p className="mb-5 leading-[1.6]">
@@ -72,17 +72,17 @@ export default function Footer({ logoSrc = logo, className = "" }) {
           <FooterLinkGroup title="Du Học Hàn Quốc - Đài Loan" links={studyAbroadLinks} href="#study-abroad" />
 
           <div className="min-w-0">
-            <h4 className="mb-5 text-base font-extrabold tracking-[-0.01em] text-white">Thông Tin Liên Hệ</h4>
+            <h4 className="mb-5 text-base font-extrabold tracking-[-0.01em] text-black">Thông Tin Liên Hệ</h4>
             <ul className="space-y-[14px]">
               <li className="flex items-start gap-3"><ContactIcon type="pin" /><span>Địa chỉ: 193K-193L Trần Hưng Đạo, Phường Vị Tân, TP. Cần Thơ</span></li>
-              <li className="flex items-start gap-3"><ContactIcon type="phone" /><span>Hotline tư vấn: <a href="tel:0787878122" className="font-bold text-inherit hover:text-white">078 78 78 122</a></span></li>
-              <li className="flex items-start gap-3"><ContactIcon type="web" /><span>Website: <a href="https://daitaynam.edu.vn" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">daitaynam.edu.vn</a></span></li>
+              <li className="flex items-start gap-3"><ContactIcon type="phone" /><span>Hotline tư vấn: <a href="tel:0787878122" className="font-bold text-inherit hover:text-black">070 49 79 456</a></span></li>
+              <li className="flex items-start gap-3"><ContactIcon type="web" /><span>Website: <a href="https://daitaynam.edu.vn" target="_blank" rel="noopener noreferrer" className="underline hover:text-black">daitaynam.edu.vn</a></span></li>
               <li className="flex items-start gap-3"><ContactIcon type="clock" /><span>Giờ làm việc: 08:00 - 17:30 (Thứ 2 đến Thứ 7)</span></li>
             </ul>
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-between gap-3 border-t border-white/[0.08] pt-[25px] text-center text-[13px] md:flex-row md:text-left">
+        <div className="flex flex-col items-center justify-between gap-3 border-t border-black/[0.08] pt-[25px] text-center text-[13px] md:flex-row md:text-left">
           <p>© 2026 ĐẠI TÂY NAM EDU. Bản quyền thuộc về Du Học & Đào Tạo Đại Tây Nam.</p>
           <p>Thiết kế tuân thủ tiêu chuẩn nhận diện thương hiệu & bảo mật thông tin người dùng.</p>
         </div>
